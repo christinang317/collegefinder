@@ -1,0 +1,136 @@
+List of Inputs:
+Size - small, medium, large
+Type - public, private
+Location - city, suburban, rural
+Gender - all male, all female, co-ed
+Study Abroad - yes or no
+Greek Life - yes or no
+Admission Rate - very, sort of, not very
+
+Description:
+Picture
+Admission Rate
+Freshmen Retention Rate
+Popular Majors
+Student to Fac Ratio
+Price
+Religious Affiliation
+Financial Aid
+Link
+
+Public Schools:
+Shepherd University***
+UC Berkeley*****
+UCLA*
+UCSD*
+UC Davis*
+UVA*
+Georgia Tech*****
+University of Michigan Ann Arbor***
+College of William and Mary******
+UT Austin***
+University of Washington Seattle**
+Clemson University**
+SUNY at Albany 
+Baruch College******
+Hunter College******
+Brooklyn College****
+Binghamton university***
+University of Southern Carolina ****
+Rutgers University ****
+University of North Carolina at Asheville**
+
+Private:
+University of Chicago ****
+*Harvard
+*MIT
+*Stanford
+*California Institute of Technology
+*Pomona College
+Cornell University****
+Fordham University****
+University of Southern California***  
+Bowdoin College***
+Rice University
+Tufts University****
+Amherst College***
+Colgate University***
+Vanderbilt University***
+Brown****
+Tulane University***
+Hofstra University***
+Pace University ****
+Albright College ***
+Brigham Young University****
+New York University***
+Nova Southeastern University***
+DePaul University***
+Columbia ***
+
+
+
+
+"public" => {
+            "small" => {
+                "location" => {
+                    "city" => {
+                        "very_selective" => []
+                        "selective" => [] 
+                        "not_very_selective" => []
+                    "suburban" => {
+                        "very_selective" => []
+                        "selective" => [] 
+                        "not_very_selective" => []
+                        
+                        
+"private" => {
+            "small" =>
+               "location" => {
+                    "city" => {
+                        "very_selective" => ["Vanderbilt University", "Tufts University", "Cooper Union", "Massachusetts Institue of Technology"]
+                        "selective" => ["Colgate University"] 
+                        "not_very_selective" => []
+                    }
+                    
+                    "suburban" => {
+                        "very_selective" => ["California Institute of Technology", "Pomona College", "Amherst College", "Bowdoin College"],
+                        "selective" => ["College of William and Mary", "Smith College", "Albright College], 
+                        "not_very_selective" => ["Hofstra University"]
+                       
+        
+                    }
+                }
+                    
+        
+            "medium" => =
+            
+                "location" => {
+                     "location" => {
+                    "city" => {
+                        "very_selective" => ["Harvard", "University of Pennsylvania", "University of Chicago", "Stanford", "University of Southern California"],
+                        "selective" => ["Tulane University"], 
+                        "not_very_selective" => ["Pace University"], 
+                    }
+                    "suburban" => {
+                        "very_selective" => ["Cornell University"], 
+                        "selective" => [], 
+                        "not_very_selective" => [], 
+                    }
+                }
+                    
+            "large" => 
+                 "location" => {
+                    "city" => {
+                        "very_selective" => ["Columbia University"], 
+                        "selective" => ["Fordham University", "New York University", "Nova Southeastern University"],  
+                        "not_very_selective" => ["DePaul University"], 
+                    }
+                    "suburban" => {
+                        "very_selective" => [], 
+                        "selective" => ["College of William and Mary", "Brigham Young University"],  
+                        "not_very_selective" => [], 
+        
+                    }
+      
+                 } 
+     

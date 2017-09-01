@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Results</title> 
+    <style> 
+      body {
+  background-image: url("https://i.pinimg.com/736x/b6/94/18/b6941882250e1b703d822636acfdf559--white-background-wallpaper-wood-background.jpg");
+  
+ 
+    }
+
+
+  h1 {
+  font-weight: bold;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+  }
+
+  h2 {
+  font-weight: 200;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  }
+    
+    
+    
+    </style>
+    <!--<link href="/public/css/style.css" rel="stylesheet">-->
+    <link rel="icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/3758-200.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    
+  </head>
+  <h1><center>Here are your matched colleges!</center></h1>
+ 
+  <body>
+    <% @result.each do |school| %>
+    <h2><%=school%></h2>
+    <%end%>
+
+  </body>
+</html>
+
+
+   
+   

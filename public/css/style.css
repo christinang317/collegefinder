@@ -1,0 +1,22 @@
+body {
+  background-image: url("http://www.rmc.edu/images/default-source/student-life-images/graduation-celebration-silhouette.png?sfvrsn=44def300_0");
+  
+  color: black; 
+}
+
+
+h1 {
+  font-weight: 300;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 200;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 28px;
+}
+
+
+
